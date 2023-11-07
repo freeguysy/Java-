@@ -1,0 +1,984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script>
+    _HOST_ = "//mooc1.chaoxing.com";
+    _CP_ = "/mooc-ans";
+    _HOST_CP1_ = "//mooc1.chaoxing.com/mooc-ans";
+    // _HOST_CP2_ = _HOST_ + _CP_;
+    _HOST_CP2_ = _CP_;
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>作业详情</title>
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/pop.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/common.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/marking_icon.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/viewStudent.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/taskStudent_pop.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/oralTest.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/animationQuestion.css">
+<style type="text/css">
+	.classtips{margin: 30px 40px 0;padding:10px 20px;border: 1px solid #FBE59A;background: #FEFBE8;border-radius: 4px;font-size:14px;color:#474C59;}
+	.classtips .tipsPop{display:inline-block;width:16px;height:16px;vertical-align:middle;margin-right:8px;background:#ff0}
+	.classtips .tipsPop img{display:block;width:100%;height:100%}
+</style>
+<link href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/font.css" rel="stylesheet" type="text/css"><link href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/questionBankUsual.css" type="text/css" rel="stylesheet"><script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/jquery.min.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/jquery-migrate.min.js"></script><script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/poptoast.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/poplayout.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/viewStudent.js"></script>
+<script src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/attach-mark.js"></script><script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/animation-question.js"></script>
+<style type="text/css">.hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}</style><style>.clearfix:after{content: " ";display: block;height: 0px;clear: both;}</style></head>
+<body>
+<script src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/preview-attach.js" class="clearfix"></script><link href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/viewer.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/jquery.md5.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/viewer-jquery.min.js"></script>
+<script type="text/javascript">
+try{
+	$(function(){
+		var imgList = $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .ans-formula-moudle, .no_view)");
+		for (var i = 0, len = imgList.size(); i < len; i++) {
+			 var src = imgList.eq(i).attr("src");
+			 if(src){
+    			var index = src.indexOf("375_1024");
+    			if (index != -1) {
+    				src = src.replace("375_1024", "origin");
+    			}
+                 var index2 = src.indexOf("750_1024");
+                 if (index2 != -1) {
+                     src = src.replace("750_1024", "origin");
+                 }
+    			imgList.eq(i).attr("data-original", src);
+		   }
+		}
+        $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .no_view)").viewer({
+			url : 'data-original',
+		});
+	})
+  }catch(error){}
+</script>
+
+
+<input type="hidden" id="courseId" value="219178462">
+<input type="hidden" id="classId" value="80712344">
+<input type="hidden" id="cpi" value="270722088">
+<input type="hidden" id="workId" value="30491461">
+<input type="hidden" id="answerId" value="52746127">
+<input type="hidden" id="enc" value="89f25fc89186151f0afbfeea899b2600">
+<input type="hidden" id="creatorId" value="270722088">
+
+<div class="subNav">作业详情</div>
+<div class="het40"></div>
+<div class="fanyaMarking TiMu" id="fanyaMarking">
+	<div class="fanyaMarking_left whiteBg">
+		<div class="borderBom padBom20 detailsHead" style="overflow: hidden;">
+						<h2 class="mark_title" tabindex="0">作业3</h2>
+			<div class="infoHead fl" tabindex="0">
+				<span>题量: 20</span>
+				<span>满分: 20</span>
+				<div style="margin-top: 10px;margin-left: -9px;">
+					<p class="rightBord">作答时间:<em>10-30 11:42</em>至<em>11-30 11:40</em></p>
+									</div>
+			</div>
+
+							<div class="analysisCard fl"><a target="_blank" href="https://stat2-ans.chaoxing.com/study-knowledge/ans?courseid=219178462&amp;cpi=270722088&amp;clazzid=80712344&amp;ut=s&amp;relationId=30491461&amp;type=2"><i class="custom-style"></i>智能分析</a></div>
+				<div class="clear"></div>
+			
+						<span class="resultNum" tabindex="0"><i class="custom-style">20</i>分</span>
+					</div>
+				
+				
+							<div class="mark_table padTop60 ans-cc fontLabel">
+								
+					
+					<div class="mark_item">
+						                            <h2 class="type_tit" tabindex="0">一. 单选题（共15题，15分）</h2>
+																							
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529460" data="210529460" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">1. <span class="colorShallow">(单选题, 1分)</span>下列关于内置对象的说法错误的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 在所有的JSP页面中，直接调用内置对象都是合法的</li>
+																																							<li tabindex="0">B. 内置对象是通过Web容器来实现和管理的</li>
+																																							<li tabindex="0">C. 内置对象是自动载入的，因此不需要直接实例化</li>
+																																																																																	<li tabindex="0">D. 在JSP规范中定义了5种内置对象</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:在JSP规范中定义了5种内置对象; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529461" data="210529461" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">2. <span class="colorShallow">(单选题, 1分)</span>下列内置对象中用来表示页面上发生异常的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. application</li>
+																																																																																	<li tabindex="0">B. exception</li>
+																																							<li tabindex="0">C. page</li>
+																																							<li tabindex="0">D. config</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:exception; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529462" data="210529462" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">3. <span class="colorShallow">(单选题, 1分)</span>在out对象管理缓冲区的方法中，用来清除缓冲区里的数据，但不把数据写入客户端的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. void close()</li>
+																																																																																	<li tabindex="0">B. void clear()</li>
+																																							<li tabindex="0">C. void flush()</li>
+																																							<li tabindex="0">D. void clearBuffer()</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:void clear(); </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529463" data="210529463" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">4. <span class="colorShallow">(单选题, 1分)</span>在request对象的方法中用来得到请求的URL地址的方法是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. request. getServletPath()</li>
+																																																																																	<li tabindex="0">B. <p style="white-space: normal;">request. getRequestURL()</p></li>
+																																							<li tabindex="0">C. request. getQueryString()</li>
+																																							<li tabindex="0">D. request. getRemoteAddr()</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:request. getRequestURL(); </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529464" data="210529464" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">5. <span class="colorShallow">(单选题, 1分)</span>下列关于request对象的转发（Forword）和response的重定向（Redirect）的说法中错误的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. forward方法属于服务器端去请求资源，而sendRedirect方法让客户端重新向服务器端请求一遍</li>
+																																																																																	<li tabindex="0">B. forward转发的页以及转发到的目标页面不能共享request里面的数据，但sendRedirect方法可以</li>
+																																							<li tabindex="0">C. forward方法只能在同一个Web应用程序内的资源之间转发请求</li>
+																																							<li tabindex="0">D. 与sendRedirect方法相比forward方法的效率较高</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:forward转发的页以及转发到的目标页面不能共享request里面的数据，但sendRedirect方法可以; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529465" data="210529465" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">6. <span class="colorShallow">(单选题, 1分)</span>response对应的类是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. javax.servlet.http.HttpServletResponse</li>
+																																							<li tabindex="0">B. java.servlet.http.HttpServletResponse</li>
+																																							<li tabindex="0">C. javax.servlet.Response</li>
+																																							<li tabindex="0">D. javax.servlet.HttpServletResponse</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:javax.servlet.http.HttpServletResponse; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529466" data="210529466" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">7. <span class="colorShallow">(单选题, 1分)</span>用来设置Cookie的存活时间的代码是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. response.addCookie(Cookie c)</li>
+																																																																																	<li tabindex="0">B. Cookie.setMaxAge(int second)</li>
+																																							<li tabindex="0">C. request.getCookies()</li>
+																																							<li tabindex="0">D. request.setCookies()</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:Cookie.setMaxAge(int second); </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529467" data="210529467" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">8. <span class="colorShallow">(单选题, 1分)</span>下列关于Cookie的说法中正确的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. Cobkie是绝对安全的，可以放心使用</li>
+																																							<li tabindex="0">B. Cookie帮助服务器端保存多个状态信息，使用服务器端专门分配的存储资源</li>
+																																																																																	<li tabindex="0">C. Cookie可以持久地保持一些和客户相关的信息</li>
+																																							<li tabindex="0">D. 关闭客户端计算机后，重新打开就找不到Cookie文件了</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> C</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:Cookie可以持久地保持一些和客户相关的信息; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529468" data="210529468" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">9. <span class="colorShallow">(单选题, 1分)</span>在解决Cookie的安全问题时可以采用及时删除Cookie的方法，下列做法不能删除一个已经存在的Cookie的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 通过浏览器删除Cookie</li>
+																																							<li tabindex="0">B. 禁用Cookie</li>
+																																																																																	<li tabindex="0">C. 使用跨站脚本技术</li>
+																																							<li tabindex="0">D. 给Cookie赋空值</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> C</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:使用跨站脚本技术; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529469" data="210529469" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">10. <span class="colorShallow">(单选题, 1分)</span>下列关于session的说法错误的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 在访问网站时，服务器端自动分配一个session对象给用户使用</li>
+																																																																																	<li tabindex="0">B. 对于同一个用户，当网站的页面改变时，用户使用的session也会改变</li>
+																																							<li tabindex="0">C. session负责保存同一个客户端一次会话过程中的一 些信息</li>
+																																							<li tabindex="0">D. session能够跨页保持</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:对于同一个用户，当网站的页面改变时，用户使用的session也会改变; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529470" data="210529470" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">11. <span class="colorShallow">(单选题, 1分)</span>通过（&nbsp; &nbsp; &nbsp; &nbsp; ）方法可以将内容保存在session中。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. session.setAtribute(String name, Object obj)</li>
+																																							<li tabindex="0">B. session.getAttribute(String name)</li>
+																																							<li tabindex="0">C. session.setValues(String name, Object obj)</li>
+																																							<li tabindex="0">D. session.getValues(String name)</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:session.setAtribute(String name, Object obj); </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529471" data="210529471" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">12. <span class="colorShallow">(单选题, 1分)</span>下列说法中正确的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. session.setAttribute(String name, Objeet obj)中的第2个参数可以是自定义类型</li>
+																																							<li tabindex="0">B. session.getAttribute(String name)的返回值是Object类型，当用户从session中取出内容时不需要进行强制转换</li>
+																																							<li tabindex="0">C. session.removeAttribute(String name)可以将session中的所有内容删除</li>
+																																							<li tabindex="0">D. session中的数据不能被同一个客户在网站的一次会话过程中共享</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:session.setAttribute(String name, Objeet obj)中的第2个参数可以是自定义类型; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529472" data="210529472" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">13. <span class="colorShallow">(单选题, 1分)</span>下列关于sessionld的说法错误的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 对于不同的客户来说，每个人的session是不同的</li>
+																																							<li tabindex="0">B. 对于每一个session，服务器端都有一个sessionld来标识它</li>
+																																							<li tabindex="0">C. 在第一次访问时，服务器端就给session分配了一个sessionld</li>
+																																																																																	<li tabindex="0">D. 在客户端访问下一个页面时，不会将sessionld传递给服务器端</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:在客户端访问下一个页面时，不会将sessionld传递给服务器端; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529473" data="210529473" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">14. <span class="colorShallow">(单选题, 1分)</span>在服务器启动后就会自动创建application对象，这个对象会一直保存，直到服务器关闭为止。该说法（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. 正确</li>
+																																							<li tabindex="0">B. 错误</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:正确; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529474" data="210529474" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">15. <span class="colorShallow">(单选题, 1分)</span>下列关于appication的说法正确的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 对于不同的客户端来说，服务器端的application对象是不同的</li>
+																																							<li tabindex="0">B. application对应的类是javax.servlet.ServletApplication</li>
+																																							<li tabindex="0">C. 将内容放人application用application.getAttribute(String name)</li>
+																																																																																	<li tabindex="0">D. 显示某个页面被访问的次数可以用application对象</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:显示某个页面被访问的次数可以用application对象; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+											</div>
+				
+					
+					<div class="mark_item">
+						                            <h2 class="type_tit" tabindex="0">二. 判断题（共5题，5分）</h2>
+																							
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529475" data="210529475" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">16. <span class="colorShallow">(判断题, 1分)</span>网页中只要使用gb2312编码就不会出现中文乱码。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+										<li tabindex="0">A. 对</li>
+										<li tabindex="0">B. 错</li>
+									</ul>
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> 错</span>
+																					</div>
+										
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+										
+										
+									</div>
+								
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529476" data="210529476" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">17. <span class="colorShallow">(判断题, 1分)</span>同一个客户在同一个Web应用中的session对象是相同的，在不同的Web应用中的session对象是不相同的。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+										<li tabindex="0">A. 对</li>
+										<li tabindex="0">B. 错</li>
+									</ul>
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> 对</span>
+																					</div>
+										
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+										
+										
+									</div>
+								
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529477" data="210529477" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">18. <span class="colorShallow">(判断题, 1分)</span>表单信息的验证只能放在服务器端执行。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+										<li tabindex="0">A. 对</li>
+										<li tabindex="0">B. 错</li>
+									</ul>
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> 错</span>
+																					</div>
+										
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+										
+										
+									</div>
+								
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529478" data="210529478" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">19. <span class="colorShallow">(判断题, 1分)</span>Tomcat服务器支持直接使用application对象。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+										<li tabindex="0">A. 对</li>
+										<li tabindex="0">B. 错</li>
+									</ul>
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> 对</span>
+																					</div>
+										
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+										
+										
+									</div>
+								
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529479" data="210529479" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">20. <span class="colorShallow">(判断题, 1分)</span>out对象是一个输出流， 它实现了javax.servlet.JspWriter接口，用来向客户端输出数据。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+										<li tabindex="0">A. 对</li>
+										<li tabindex="0">B. 错</li>
+									</ul>
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> 对</span>
+																					</div>
+										
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+										
+										
+									</div>
+								
+															</div>
+											</div>
+							</div>
+			</div>
+	
+		<div class="fanyaMarking_right" id="rightHeight" style="max-height: 503px; top: 70px;">
+		<div class="topicNumber" id="topicNumberScroll" tabindex="0" aria-label="答题卡" style="max-height: 423px; overflow: hidden; outline: none;">
+												
+						
+                        <div class="topicNumber_checkbox colorDeep fs14" tabindex="0">
+														一. 单选题（15分）                        </div>
+                        <ul class="topicNumber_list clearfix" tabindex="-1" aria-hidden="true">
+							                                <li id="answerSheet210529460" data="210529460" class="active" tabindex="0" role="option">1</li>
+							                                <li id="answerSheet210529461" data="210529461" class="active" tabindex="0" role="option">2</li>
+							                                <li id="answerSheet210529462" data="210529462" class="active" tabindex="0" role="option">3</li>
+							                                <li id="answerSheet210529463" data="210529463" class="active" tabindex="0" role="option">4</li>
+							                                <li id="answerSheet210529464" data="210529464" class="active" tabindex="0" role="option">5</li>
+							                                <li id="answerSheet210529465" data="210529465" class="active" tabindex="0" role="option">6</li>
+							                                <li id="answerSheet210529466" data="210529466" class="active" tabindex="0" role="option">7</li>
+							                                <li id="answerSheet210529467" data="210529467" class="active" tabindex="0" role="option">8</li>
+							                                <li id="answerSheet210529468" data="210529468" class="active" tabindex="0" role="option">9</li>
+							                                <li id="answerSheet210529469" data="210529469" class="active" tabindex="0" role="option">10</li>
+							                                <li id="answerSheet210529470" data="210529470" class="active" tabindex="0" role="option">11</li>
+							                                <li id="answerSheet210529471" data="210529471" class="active" tabindex="0" role="option">12</li>
+							                                <li id="answerSheet210529472" data="210529472" class="active" tabindex="0" role="option">13</li>
+							                                <li id="answerSheet210529473" data="210529473" class="active" tabindex="0" role="option">14</li>
+							                                <li id="answerSheet210529474" data="210529474" class="active" tabindex="0" role="option">15</li>
+							                        </ul>
+					
+						
+                        <div class="topicNumber_checkbox colorDeep fs14" tabindex="0">
+														二. 判断题（5分）                        </div>
+                        <ul class="topicNumber_list clearfix" tabindex="-1" aria-hidden="true">
+							                                <li id="answerSheet210529475" data="210529475" class="active" tabindex="0" role="option">16</li>
+							                                <li id="answerSheet210529476" data="210529476" class="active" tabindex="0" role="option">17</li>
+							                                <li id="answerSheet210529477" data="210529477" class="active" tabindex="0" role="option">18</li>
+							                                <li id="answerSheet210529478" data="210529478" class="active" tabindex="0" role="option">19</li>
+							                                <li id="answerSheet210529479" data="210529479" class="active" tabindex="0" role="option">20</li>
+							                        </ul>
+														</div>
+	<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 8px; z-index: auto; cursor: default; position: absolute; top: 0px; left: 272px; height: 333px; display: none;"><div style="position: relative; top: 0px; float: right; width: 8px; height: 0px; background-color: rgb(230, 236, 245); background-clip: padding-box; border-radius: 5px;" class="nicescroll-cursors"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 8px; z-index: auto; top: 325px; left: 0px; position: absolute; cursor: default; display: none;"><div style="position: absolute; top: 0px; height: 8px; width: 0px; background-color: rgb(230, 236, 245); background-clip: padding-box; border-radius: 5px;" class="nicescroll-cursors"></div></div></div>
+	</div>
+
+<div class="maskDiv popMoveShowHide" style="display:none;" id="recordList">
+	<div class="popDiv wid640 popMove">
+		<div class="popHead">
+			<a href="javascript:;" onclick="closeAnswers();" class="popClose popMoveDele fr"><img src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/popClose_002.png"></a>
+			<p class="fl fs18 colorDeep">作答记录</p>
+		</div>
+		<div class="het62"></div>
+				<div id="content"></div>
+	</div>			
+</div>
+
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/prompt.css">
+<style>
+	.mask-no-bg{background:none!important;}
+	.mask-no-bg .popDiv{box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.08);}
+</style>
+<div class="maskDiv" style="display:none;" id="workpop">
+	<div class="popDiv wid440 Marking">
+		<div class="popHead" id="workpopFocus" role="alertdialog" tabindex="0">
+			<a id="popCloseFocus" href="javascript:;" class="popClose fr" onclick="$('#workpop').hide();$('.popSetupShowHide').fullFadeOut();" tabindex="-1"><img src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/popClose.png" id="popCloseFocusImg" onkeydown="if(event.keyCode == 13){popCloseFocus();}" role="button" tabindex="-1" aria-label="关闭"></a>
+			<p class="fl fs18 colorDeep" tabindex="0" role="option">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="popcontent" tabindex="0"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="popok" class="jb_btn jb_btn_92 fr fs14" tabindex="0" role="button" aria-label="确定"></a>
+			<a href="javascript:;" id="popno" class="btnBlue btn_92_cancel fr fs14" onkeydown="popnoFocus();" tabindex="0" role="button" aria-label="取消"></a>
+		</div>
+		<div class="het72"></div>
+			</div>
+</div>
+
+<div class="mask-no-bg" style="display:none;" id="worktoast">
+	<div class="popDiv wid440 Marking" style="top: 30%;">
+		<div class="popHead">
+			<a href="javascript:;" class="popClose fr" onclick="$('#worktoast').hide();$('.popSetupShowHide').fullFadeOut();"><img src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/popClose.png"></a>
+			<p class="fl fs18 colorDeep">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="toastcontent"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="toastok" class="jb_btn jb_btn_92 fr fs14"></a>
+			<a href="javascript:;" id="toastno" class="btnBlue btn_92_cancel fr fs14"></a>
+		</div>
+		<div class="het72"></div>
+	</div>
+</div>
+
+<script>
+
+function workPop(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#workpop");
+
+	$(".popSetupShowHide").fullFadeIn();
+	ta.show();
+	
+	$("#popcontent").html(content);
+	var popokHiddenRead = $("#popokHiddenRead");
+
+	var ok = $("#popok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		// 无障碍单位走定制,延迟语音读取处理
+		if("0" == "1") {
+			popokHiddenRead.attr("tabindex","0");
+			if (content && content != '很遗憾，未达到及格线，请重做') {
+				popokHiddenRead.focus();
+			}
+			setTimeout(function() {
+				okcallback && okcallback(ta);
+				popokHiddenRead.attr("tabindex","-1")
+				ta.hide();
+				$(".popSetupShowHide").fullFadeOut();
+			}, 1000)
+		} else {
+			okcallback && okcallback(ta);
+			ta.hide();
+			$(".popSetupShowHide").fullFadeOut();
+		}
+	});
+
+	var cancel = $("#popno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+	$("#workpopFocus").focus();
+}
+
+function workToast(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#worktoast");
+
+	$(".popSetupShowHide").fullFadeIn();
+	ta.show();
+
+	$("#toastcontent").html(content);
+
+	var ok = $("#toastok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		okcallback && okcallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+
+	var cancel = $("#toastno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+}
+
+function popFocus() {
+	$("#popCloseFocusImg").attr("tabindex","0");
+	$("#popCloseFocus").focus();
+}
+function popCloseFocus() {
+	$('#workpop').hide();
+	$('.popSetupShowHide').fullFadeOut();
+	$("#popCloseFocusImg").attr("tabindex","-1");
+}
+function popnoFocus() {
+	if(event.keyCode == 9){
+		popFocus();
+	}
+	if(event.keyCode == 13){
+		$("#popCloseFocusImg").attr("tabindex","-1");
+	}
+}
+
+</script><!-- 代码高亮开始 start -->
+<link type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/default.min.css" rel="stylesheet">
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/highlight.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/highlightjs-line-numbers.js" charset="utf-8"></script>
+<style>
+    pre,code {display: block;background: #F7F8FA;border: 1px solid #E1E3E5; font-size: 14px; border-radius: 4px; padding: 30px 20px; margin: 20px 0; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji; }
+    pre{overflow-x: auto;margin:.5em 0;padding:.4em .6em;border-radius:8px;background:#f8f8f8;}
+    pre.autolinebreak{white-space: normal; }
+    code.hljs{background: #F7F8FA;}
+    pre code,pre pre{ margin: 0; background: none;border: none;}/*padding: 0;*/
+    .code-tool-wrap{padding-bottom: 1em;left: 20px; top: 2px; width: calc(100% - 40px); height: 24px; font-size: 14px; user-select: none;}
+    .code-lang{ display:inline-block; color: #ACB4BF; }
+    .ans-cc .ans-noborder th,.ans-cc .ans-noborder td{border-color:transparent;}
+    .ans-cc pre,.ans-cc code{ position: relative; padding: 0px 20px 30px; margin: 20px 0;border: 1px solid #E1E3E5; border-radius: 4px; color: #474C59; background: #F7F8FA; font-size:14px; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji;  }
+    .ans-cc pre{overflow: auto}
+    .ans-cc pre code,.ans-cc pre pre{ padding: 0; border:none; margin: 0; background: none;border-radius: 0;}
+    .ans-cc pre.autolinebreak{white-space: pre-wrap;word-wrap: break-word;}
+    .hljs-ln-numbers {text-align: center;color: #ccc;border-right: 1px solid #CCC;vertical-align: top;padding-right: 5px !important;}
+    .hljs-ln-code {padding-left: 5px !important;}
+    /* 全局去掉表格样式 */
+    .ans-cc pre code table tr td {border: solid 0px #cfd4dc;text-align: left}
+    /* 作业表格适配，考试表格适配 */
+    .ans-cc pre table{table-layout: unset;}
+    .ans-cc pre code table{table-layout: unset;}
+    /* pre 标签未换行 */
+    .ans-cc pre.line-numbers{clear:both}
+    .ans-cc pre{clear:both}
+
+    /* app作业库 考试库 查看样式 */
+
+    .hljs-link, .hljs-operator, .hljs-regexp, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-symbol, .hljs-template-variable, .hljs-variable {
+        color: #ab5656 !important;
+    }
+    .hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
+        color: #800 !important;
+    }
+    /* 章节作业 */
+    .hljs-ln span{margin-right:0}
+
+    /* 学习通颜色覆盖 */
+    .hljs-type{color:#800 !important;}
+    .hljs-section,.hljs-title{color:#800 !important;font-weight:700}
+    /* 背景颜色 */
+    .ans-cc pre code td{background-color: unset;}
+</style>
+<link type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%853_files/newEditor.css" rel="stylesheet">
+<script>
+    /**
+     * 保证最后加载
+     */
+    $(function () {
+        var pre = $(".ans-cc").find('pre')
+        if(pre){
+            pre.each(function () {
+                // debugger
+                var me = this;
+                var lang = me.firstChild && me.firstChild.lang;
+                if (typeof (lang) == 'undefined' || lang == null || lang == "" ) {
+                    lang = me.firstChild && me.firstChild.className;
+                    if (typeof (lang) != 'undefined' && lang != null && lang != "" ) {
+                        var split = lang.split("-");
+                        lang = split[1];
+                        if (lang == 'plain') {
+                            lang = 'Plain Text';
+                        }
+                    } else {
+                        lang = 'Plain Text';
+                    }
+                }
+                me.innerHTML = '<div class="code-tool-wrap clearfix"><div class="code-lang fl">' + lang
+                        + '</div><div class="copy1 fr"><i></i><span></span></div></div>' + me.innerHTML;
+                me.innerHTML = me.innerHTML.replace(/<br\s*\/?>/g, "\n");
+            })
+        }
+
+        try {
+            hljs.initHighlightingOnLoad();
+            hljs.initLineNumbersOnLoad({ singleLine:true });
+        } catch (e) {
+
+        }
+    })
+</script>
+<!-- 代码高亮结束 end --><script>
+
+$(function () {
+	$(".viewAttach").find("span:first").each(function () {
+		$(this).attr("onclick", "viewMark(this);");
+	});
+});
+
+var courseId = $("#courseId").val();
+var classId = $("#classId").val();
+var cpi = $("#cpi").val();
+var workId = $("#workId").val();
+var answerId = $("#answerId").val();
+var enc = $("#enc").val();
+
+function redoWork() {
+	
+	var redoTimes = 0 + 0 - 0;
+	var msg = "你还可以重做" + redoTimes + "次，确认重做后，前一次作答记录会被覆盖，作业成绩以本次成绩为最终成绩，是否继续？";
+	
+	workPop(msg, "重做", "取消", function() {
+		$.ajax({
+			type : "get",
+			url : _HOST_CP2_ + "/work/phone/redo",
+			dataType : "json",
+			data : {
+				courseId : courseId,
+				classId : classId,
+				cpi : cpi,
+				workId : workId,
+				workAnswerId : answerId
+			},
+			success : function(data) {
+				if(data.status == 1) {
+					location.href = "/mooc-ans/mooc2/work/dowork?courseId=219178462&classId=80712344&cpi=270722088&workId=30491461&answerId=52746127&knowledgeId=&jobid=&standardEnc=e4eb44abed2ac1f269c6432b24412bb8&enc=89f25fc89186151f0afbfeea899b2600";
+				} else {
+					$.toast({
+						type : 'failure',
+						content : data.msg
+					});
+				}
+			}
+		});
+	});
+}
+
+var recordLock = 0
+function answerList() {
+	if(recordLock == 1) {
+		return;
+	}
+	recordLock = 1;
+	
+	$.ajax({
+		type : "get",
+		url : _HOST_CP2_ + "/mooc2/work/answer-list",
+		dataType : "html",
+		data : {
+			courseId : courseId,
+			classId : classId,
+			cpi : cpi,
+			workId : workId,
+			answerId : answerId,
+			enc : enc
+		},
+		success : function(data) {
+			$("#content").html(data);
+			$("#recordList").show();
+			MoveFixed();
+		}
+	});
+}
+
+function closeAnswers() {
+	$("#recordList").hide();
+	recordLock = 0;
+}
+
+function MoveFixed() {
+	$('.popMove').css({
+		top : function() {
+			return ($(window).height() - $(this).height()) / 2;
+		},
+		left : function() {
+			return ($(window).width() - $(this).width()) / 2;
+		}
+	});
+	
+	$("#boxscroll").niceScroll({
+		cursorborder : "",
+		cursorcolor : "#D9DDE1",
+		boxzoom : false
+	});
+}
+
+</script>
+
+</body></html>
