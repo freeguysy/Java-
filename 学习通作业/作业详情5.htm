@@ -1,0 +1,940 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script>
+    _HOST_ = "//mooc1.chaoxing.com";
+    _CP_ = "/mooc-ans";
+    _HOST_CP1_ = "//mooc1.chaoxing.com/mooc-ans";
+    // _HOST_CP2_ = _HOST_ + _CP_;
+    _HOST_CP2_ = _CP_;
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>作业详情</title>
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/pop.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/common.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/marking_icon.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/viewStudent.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/taskStudent_pop.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/oralTest.css">
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/animationQuestion.css">
+<style type="text/css">
+	.classtips{margin: 30px 40px 0;padding:10px 20px;border: 1px solid #FBE59A;background: #FEFBE8;border-radius: 4px;font-size:14px;color:#474C59;}
+	.classtips .tipsPop{display:inline-block;width:16px;height:16px;vertical-align:middle;margin-right:8px;background:#ff0}
+	.classtips .tipsPop img{display:block;width:100%;height:100%}
+</style>
+<link href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/font.css" rel="stylesheet" type="text/css"><link href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/questionBankUsual.css" type="text/css" rel="stylesheet"><script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/jquery.min.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/jquery-migrate.min.js"></script><script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/poptoast.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/poplayout.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/viewStudent.js"></script>
+<script src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/attach-mark.js"></script><script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/animation-question.js"></script>
+<style type="text/css">.hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}</style><style>.clearfix:after{content: " ";display: block;height: 0px;clear: both;}</style></head>
+<body>
+<script src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/preview-attach.js" class="clearfix"></script><link href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/viewer.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/jquery.md5.js"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/viewer-jquery.min.js"></script>
+<script type="text/javascript">
+try{
+	$(function(){
+		var imgList = $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .ans-formula-moudle, .no_view)");
+		for (var i = 0, len = imgList.size(); i < len; i++) {
+			 var src = imgList.eq(i).attr("src");
+			 if(src){
+    			var index = src.indexOf("375_1024");
+    			if (index != -1) {
+    				src = src.replace("375_1024", "origin");
+    			}
+                 var index2 = src.indexOf("750_1024");
+                 if (index2 != -1) {
+                     src = src.replace("750_1024", "origin");
+                 }
+    			imgList.eq(i).attr("data-original", src);
+		   }
+		}
+        $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .no_view)").viewer({
+			url : 'data-original',
+		});
+	})
+  }catch(error){}
+</script>
+
+
+<input type="hidden" id="courseId" value="219178462">
+<input type="hidden" id="classId" value="80712344">
+<input type="hidden" id="cpi" value="270722088">
+<input type="hidden" id="workId" value="30914531">
+<input type="hidden" id="answerId" value="52824623">
+<input type="hidden" id="enc" value="4b54e56d09f9c323f8e7a51edf3e764d">
+<input type="hidden" id="creatorId" value="270722088">
+
+<div class="subNav">作业详情</div>
+<div class="het40"></div>
+<div class="fanyaMarking TiMu" id="fanyaMarking">
+	<div class="fanyaMarking_left whiteBg">
+		<div class="borderBom padBom20 detailsHead" style="overflow: hidden;">
+						<h2 class="mark_title" tabindex="0">作业5</h2>
+			<div class="infoHead fl" tabindex="0">
+				<span>题量: 18</span>
+				<span>满分: 18</span>
+				<div style="margin-top: 10px;margin-left: -9px;">
+					<p class="rightBord">作答时间:<em>11-13 13:10</em>至<em>11-30 23:59</em></p>
+										<a href="javascript:;" class="redo" onclick="redoWork();"><i class="custom-style"></i>重做</a>
+									</div>
+			</div>
+
+							<div class="analysisCard fl"><a target="_blank" href="https://stat2-ans.chaoxing.com/study-knowledge/ans?courseid=219178462&amp;cpi=270722088&amp;clazzid=80712344&amp;ut=s&amp;relationId=30914531&amp;type=2"><i class="custom-style"></i>智能分析</a></div>
+				<div class="clear"></div>
+			
+						<span class="resultNum" tabindex="0"><i class="custom-style">18</i>分</span>
+					</div>
+				
+				
+							<div class="mark_table padTop60 ans-cc fontLabel">
+								
+					
+					<div class="mark_item">
+						                            <h2 class="type_tit" tabindex="0">一. 单选题（共18题，18分）</h2>
+																							
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529386" data="210529386" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">1. <span class="colorShallow">(单选题, 1分)</span>在下面的代码中，若想使输出结果为“好好学习”，应该填入（&nbsp; &nbsp; &nbsp; &nbsp; ）。<p></p><p>&lt;%@ page language ="java" contentType="text/html; charset=UTF-8"%&gt;</p><p>&lt;%@ taglib prefix= "c" uri="http://java.sun.com/jsp/jstl/core"%&gt;</p><p>&lt;html&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>&lt;body&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>&lt;%</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;session.setAttribute("msg",
+ "&lt;font&gt;好好学习&lt;/font&gt;");</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>%&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>________________________________</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>&lt;/body&gt;</p><p>&lt;/html&gt;</p></h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. &lt;c:out value= ${msg}  escapeXml= false &gt;&lt;/c:out&gt;&lt;br&gt;</li>
+																																							<li tabindex="0">B. &lt;c:out value= ${msg} &gt;&lt;/c:out&gt;&lt;br&gt;</li>
+																																							<li tabindex="0">C. &lt;c:out value= ${msg}  escapeXml= true &gt;&lt;/c:out&gt;&lt;br&gt;</li>
+																																							<li tabindex="0">D. 以上都不正确</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:&lt;c:out value= ${msg}  escapeXml= false &gt;&lt;/c:out&gt;&lt;br&gt;; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529396" data="210529396" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">2. <span class="colorShallow">(单选题, 1分)</span>下列代码的功能是产生4位随机数，在“__________”处应该填人(&nbsp; &nbsp; &nbsp; &nbsp; )。<p></p><p>Random rnd = new Random();</p><p>________________________________________</p><p>String randStr = String.valueOf(randNum);</p></h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. int randNum= rnd.nextInt(8999) + 1000;</li>
+																																							<li tabindex="0">B. 以上都不正确</li>
+																																							<li tabindex="0">C. int randNum= rnd.nextInt(9999);</li>
+																																							<li tabindex="0">D. int randNum= rnd.nextInt(10) * 1000;</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:int randNum= rnd.nextInt(8999) + 1000;; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529387" data="210529387" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">3. <span class="colorShallow">(单选题, 1分)</span>如果要使用JSTL的核心标签库，需要在JSP源文件的首部加入如下（&nbsp; &nbsp; &nbsp; &nbsp; ）声明语句。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. &lt;%@ taglib prefix= "sql" uri="http://java.sun.com/jsp/jstl/sql"%&gt;</li>
+																																																																																	<li tabindex="0">B. &lt;%@ taglib prefix= "c" uri="http://java.sun.com/jsp/jstl/core"%&gt;</li>
+																																							<li tabindex="0">C. &lt;%@ taglib prefix= "fmt" uri="http://java.sun.com/jsp/jstl/fmt"%&gt;</li>
+																																							<li tabindex="0">D. &lt;%@ taglib prefix= "x" uri="http://java.sun.com/jsp/jstl/xml"%&gt;</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:&lt;%@ taglib prefix= "c" uri="http://java.sun.com/jsp/jstl/core"%&gt;; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529383" data="210529383" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">4. <span class="colorShallow">(单选题, 1分)</span>在使用EL关系运算符判断两个变量是否相等时应使用(&nbsp; &nbsp; &nbsp; &nbsp; )表达式。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. ${${变量1}==${变量2}}</li>
+																																							<li tabindex="0">B. ${变量1}==${变量2}</li>
+																																							<li tabindex="0">C. ${${变量1}==${变量2)}</li>
+																																																																																	<li tabindex="0">D. ${变量1==变量2}</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:${变量1==变量2}; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529385" data="210529385" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">5. <span class="colorShallow">(单选题, 1分)</span>EL表达式在对隐含对象进行查找时最先查找的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. session</li>
+																																							<li tabindex="0">B. application</li>
+																																																																																	<li tabindex="0">C. page<br></li>
+																																							<li tabindex="0">D. cookie</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> C</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:page; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529381" data="210529381" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">6. <span class="colorShallow">(单选题, 1分)</span>下面不是EL表达式的特点的是(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 访问JSP作用域</li>
+																																							<li tabindex="0">B. 可直接进行运算</li>
+																																							<li tabindex="0">C. 访问JavaBean属性</li>
+																																																																																	<li tabindex="0">D. 被所有浏览器支持</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:被所有浏览器支持; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529389" data="210529389" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">7. <span class="colorShallow">(单选题, 1分)</span>下面关于AJAX的描述错误的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. AJAX使用XHTML和CSS基于标准的表示技术</li>
+																																							<li tabindex="0">B. AJAX使用XML和XSLT进行数据互换和操作</li>
+																																																																																	<li tabindex="0">C. AJAX是一个新技术</li>
+																																							<li tabindex="0">D. AJAX使用XMLHttpReguerer获取数据</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> C</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:AJAX是一个新技术; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529380" data="210529380" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">8. <span class="colorShallow">(单选题, 1分)</span>以下关于EL和JSTL的说法错误的是(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. EL表达式的基本形式为${var}</li>
+																																							<li tabindex="0">B. EL是一种简洁的数据访问语言</li>
+																																							<li tabindex="0">C. JSTL的全称是Java Server Pages Standard Tag Library</li>
+																																																																																	<li tabindex="0">D. JSTL只有Core核心标签库</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:JSTL只有Core核心标签库; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529382" data="210529382" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">9. <span class="colorShallow">(单选题, 1分)</span>下面有关EL中“.”和“[]”两种存取运算符的说法不正确的是(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. 如果要动态取值，两者都可以实现</li>
+																																							<li tabindex="0">B. 当要存取的属性名称中包含一 些特殊字符时，例如-或.等并非字母或数字的符号，就一定要使用“[]”</li>
+																																							<li tabindex="0">C. 两者在某些情况下是等效的</li>
+																																							<li tabindex="0">D. “[]”运算符主要用来访问数组、列表或其他集合</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:如果要动态取值，两者都可以实现; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529384" data="210529384" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">10. <span class="colorShallow">(单选题, 1分)</span>在以下这段代码中，页面运行后出现的语句是（&nbsp; &nbsp; &nbsp; &nbsp; ）。<p></p><p>&lt;%@ page contentType="text/html; charset=UTF-8" %&gt;</p><p>&lt;html&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>&lt;body&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>&lt;%</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>application.setAttribute("Msg", "Welcome Application!");</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>request.setAttribute("Msg", "Welcome Request!");</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>session.setAttribute("Msg", "Welcome Session!");</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>%&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>${Msg }&lt;br&gt;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="white-space:pre"></span>&lt;/body&gt;</p><p>&lt;/html&gt;</p></h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. Welcome!</li>
+																																																																																	<li tabindex="0">B. Welcome Request!</li>
+																																							<li tabindex="0">C. Welcome Application!</li>
+																																							<li tabindex="0">D. Welcome Session!</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:Welcome Request!; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529393" data="210529393" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">11. <span class="colorShallow">(单选题, 1分)</span>在chrome浏览器上创建XMLHttpRequest对象的方法是(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. var xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");</li>
+																																																																																	<li tabindex="0">B. var xmlHttp=new XMLHttpRequest();</li>
+																																							<li tabindex="0">C. 以上都不对</li>
+																																							<li tabindex="0">D. var xmlHttp=new ActiveXObject(" Microsoft. XMLHTTP");</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:var xmlHttp=new XMLHttpRequest();; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529391" data="210529391" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">12. <span class="colorShallow">(单选题, 1分)</span>在创建请求的代码片段xmlhttp. open("get", "info. jsp?a=1", "true")中，传递的参数值为(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																																																																	<li tabindex="0">A. 1</li>
+																																							<li tabindex="0">B. get<br></li>
+																																							<li tabindex="0">C. a</li>
+																																							<li tabindex="0">D. info.jsp</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> A</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:1; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529390" data="210529390" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">13. <span class="colorShallow">(单选题, 1分)</span>XMLHttpRequest对象的readyState属性值为(&nbsp; &nbsp; &nbsp; &nbsp; )，代表请求成功接收数据完毕。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 3</li>
+																																							<li tabindex="0">B. 2</li>
+																																																																																	<li tabindex="0">C. 4</li>
+																																							<li tabindex="0">D. 1</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> C</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:4; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529395" data="210529395" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">14. <span class="colorShallow">(单选题, 1分)</span>在验证码的工作流程中，服务器端随机生成的验证码字符串保存在（&nbsp; &nbsp; &nbsp; &nbsp; ）中。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. request</li>
+																																							<li tabindex="0">B. application</li>
+																																							<li tabindex="0">C. page</li>
+																																																																																	<li tabindex="0">D. session</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:session; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529394" data="210529394" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">15. <span class="colorShallow">(单选题, 1分)</span>对于Web表单登录中用到的图形验证码的实现，以下做法正确的是(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. 返回给刘览器的HTML代码中包含图形验证码和文本字符串，在登录前客户端判断输入内容和页面中保存的内容是否一致</li>
+																																							<li tabindex="0">B. 服务器端在返回的图片和cookie中同时包含图形验证码，在登录前客户端判断输入内容和cookie保存的内容是否一致</li>
+																																							<li tabindex="0">C. 浏览器通过识别图形验证码中的内容和用户输入的内容判断是否一致</li>
+																																																																																	<li tabindex="0">D. <p>服务器端生成验证码后，一方面通过图片将验证码返回给客户端，同时在服务器端保存文本的验证码，由服务器端验证输入内容是否正确</p>
+<p><br></p></li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:服务器端生成验证码后，一方面通过图片将验证码返回给客户端，同时在服务器端保存文本的验证码，由服务器端验证输入内容是否正确
+; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529397" data="210529397" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">16. <span class="colorShallow">(单选题, 1分)</span>在验证码的更新代码中，refresh()函数定义中以下代码正确的是（&nbsp; &nbsp; &nbsp; &nbsp; ）。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. loginForm.checkCode.src = Math.random();</li>
+																																																																																	<li tabindex="0">B. loginForm.checkCode.src = checkCode.jsp?id="+Math.random();</li>
+																																							<li tabindex="0">C. loginForm.checkCode.src = checkCode.jsp"+Math.random();</li>
+																																							<li tabindex="0">D. 以上都不正确</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> B</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:loginForm.checkCode.src = checkCode.jsp?id="+Math.random();; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529388" data="210529388" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">17. <span class="colorShallow">(单选题, 1分)</span>AJAX是指(&nbsp; &nbsp; &nbsp; &nbsp; )。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. Asynchronous +Java+XMI</li>
+																																							<li tabindex="0">B. Asynchronous+JavaScript+XHTML</li>
+																																							<li tabindex="0">C. Asp+JavaSeript +XML</li>
+																																																																																	<li tabindex="0">D. Asynchronous+JavaScript+XML</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:Asynchronous+JavaScript+XML; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+																		
+						
+							<div class="marBom60 questionLi" style="word-wrap: break-word;" id="question210529392" data="210529392" tabindex="0" aria-label="题目详情">
+																	<h3 class="mark_name colorDeep" tabindex="0">18. <span class="colorShallow">(单选题, 1分)</span>onreadystatechange事件在(&nbsp; &nbsp; &nbsp; &nbsp; )发生变化时触发。</h3>
+																
+																	<ul class="mark_letter colorDeep">
+																																							<li tabindex="0">A. onfocus</li>
+																																							<li tabindex="0">B. readystatus</li>
+																																							<li tabindex="0">C. onchange</li>
+																																																																																	<li tabindex="0">D. readyState</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i> D</span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:readyState; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">1</i>分</div>
+																					</div>
+
+										
+									</div>
+
+															</div>
+											</div>
+							</div>
+			</div>
+	
+		<div class="fanyaMarking_right" id="rightHeight" style="max-height: 469px; top: 70px;">
+		<div class="topicNumber" id="topicNumberScroll" tabindex="0" aria-label="答题卡" style="max-height: 389px; overflow: hidden; outline: none;">
+												
+						
+                        <div class="topicNumber_checkbox colorDeep fs14" tabindex="0">
+							                                <span class="numRight fr"><i class="custom-style">18</i>分</span>
+														一. 单选题（18分）                        </div>
+                        <ul class="topicNumber_list clearfix" tabindex="-1" aria-hidden="true">
+							                                <li id="answerSheet210529386" data="210529386" class="active" tabindex="0" role="option">1</li>
+							                                <li id="answerSheet210529396" data="210529396" class="active" tabindex="0" role="option">2</li>
+							                                <li id="answerSheet210529387" data="210529387" class="active" tabindex="0" role="option">3</li>
+							                                <li id="answerSheet210529383" data="210529383" class="active" tabindex="0" role="option">4</li>
+							                                <li id="answerSheet210529385" data="210529385" class="active" tabindex="0" role="option">5</li>
+							                                <li id="answerSheet210529381" data="210529381" class="active" tabindex="0" role="option">6</li>
+							                                <li id="answerSheet210529389" data="210529389" class="active current" tabindex="0" role="option">7</li>
+							                                <li id="answerSheet210529380" data="210529380" class="active" tabindex="0" role="option">8</li>
+							                                <li id="answerSheet210529382" data="210529382" class="active" tabindex="0" role="option">9</li>
+							                                <li id="answerSheet210529384" data="210529384" class="active" tabindex="0" role="option">10</li>
+							                                <li id="answerSheet210529393" data="210529393" class="active" tabindex="0" role="option">11</li>
+							                                <li id="answerSheet210529391" data="210529391" class="active" tabindex="0" role="option">12</li>
+							                                <li id="answerSheet210529390" data="210529390" class="active" tabindex="0" role="option">13</li>
+							                                <li id="answerSheet210529395" data="210529395" class="active" tabindex="0" role="option">14</li>
+							                                <li id="answerSheet210529394" data="210529394" class="active" tabindex="0" role="option">15</li>
+							                                <li id="answerSheet210529397" data="210529397" class="active" tabindex="0" role="option">16</li>
+							                                <li id="answerSheet210529388" data="210529388" class="active" tabindex="0" role="option">17</li>
+							                                <li id="answerSheet210529392" data="210529392" class="active" tabindex="0" role="option">18</li>
+							                        </ul>
+														</div>
+	<div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 8px; z-index: auto; cursor: default; position: absolute; top: 0px; left: 272px; height: 273px; display: none; opacity: 0;"><div style="position: relative; top: 0px; float: right; width: 8px; height: 0px; background-color: rgb(230, 236, 245); background-clip: padding-box; border-radius: 5px;" class="nicescroll-cursors"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 8px; z-index: auto; top: 265px; left: 0px; position: absolute; cursor: default; display: none; opacity: 0;"><div style="position: absolute; top: 0px; height: 8px; width: 0px; background-color: rgb(230, 236, 245); background-clip: padding-box; border-radius: 5px; left: 0px;" class="nicescroll-cursors"></div></div></div>
+	</div>
+
+<div class="maskDiv popMoveShowHide" style="display:none;" id="recordList">
+	<div class="popDiv wid640 popMove">
+		<div class="popHead">
+			<a href="javascript:;" onclick="closeAnswers();" class="popClose popMoveDele fr"><img src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/popClose_002.png"></a>
+			<p class="fl fs18 colorDeep">作答记录</p>
+		</div>
+		<div class="het62"></div>
+				<p class="tips_info"><i class="tipsIcon custom-style"></i>本次作业以最高分数为最终成绩</p>
+				<div id="content"></div>
+	</div>			
+</div>
+
+<link rel="stylesheet" type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/prompt.css">
+<style>
+	.mask-no-bg{background:none!important;}
+	.mask-no-bg .popDiv{box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.08);}
+</style>
+<div class="maskDiv" style="display:none;" id="workpop">
+	<div class="popDiv wid440 Marking">
+		<div class="popHead" id="workpopFocus" role="alertdialog" tabindex="0">
+			<a id="popCloseFocus" href="javascript:;" class="popClose fr" onclick="$('#workpop').hide();$('.popSetupShowHide').fullFadeOut();" tabindex="-1"><img src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/popClose.png" id="popCloseFocusImg" onkeydown="if(event.keyCode == 13){popCloseFocus();}" role="button" tabindex="-1" aria-label="关闭"></a>
+			<p class="fl fs18 colorDeep" tabindex="0" role="option">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="popcontent" tabindex="0"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="popok" class="jb_btn jb_btn_92 fr fs14" tabindex="0" role="button" aria-label="确定"></a>
+			<a href="javascript:;" id="popno" class="btnBlue btn_92_cancel fr fs14" onkeydown="popnoFocus();" tabindex="0" role="button" aria-label="取消"></a>
+		</div>
+		<div class="het72"></div>
+			</div>
+</div>
+
+<div class="mask-no-bg" style="display:none;" id="worktoast">
+	<div class="popDiv wid440 Marking" style="top: 30%;">
+		<div class="popHead">
+			<a href="javascript:;" class="popClose fr" onclick="$('#worktoast').hide();$('.popSetupShowHide').fullFadeOut();"><img src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/popClose.png"></a>
+			<p class="fl fs18 colorDeep">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="toastcontent"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="toastok" class="jb_btn jb_btn_92 fr fs14"></a>
+			<a href="javascript:;" id="toastno" class="btnBlue btn_92_cancel fr fs14"></a>
+		</div>
+		<div class="het72"></div>
+	</div>
+</div>
+
+<script>
+
+function workPop(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#workpop");
+
+	$(".popSetupShowHide").fullFadeIn();
+	ta.show();
+	
+	$("#popcontent").html(content);
+	var popokHiddenRead = $("#popokHiddenRead");
+
+	var ok = $("#popok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		// 无障碍单位走定制,延迟语音读取处理
+		if("0" == "1") {
+			popokHiddenRead.attr("tabindex","0");
+			if (content && content != '很遗憾，未达到及格线，请重做') {
+				popokHiddenRead.focus();
+			}
+			setTimeout(function() {
+				okcallback && okcallback(ta);
+				popokHiddenRead.attr("tabindex","-1")
+				ta.hide();
+				$(".popSetupShowHide").fullFadeOut();
+			}, 1000)
+		} else {
+			okcallback && okcallback(ta);
+			ta.hide();
+			$(".popSetupShowHide").fullFadeOut();
+		}
+	});
+
+	var cancel = $("#popno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+	$("#workpopFocus").focus();
+}
+
+function workToast(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#worktoast");
+
+	$(".popSetupShowHide").fullFadeIn();
+	ta.show();
+
+	$("#toastcontent").html(content);
+
+	var ok = $("#toastok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		okcallback && okcallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+
+	var cancel = $("#toastno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		$(".popSetupShowHide").fullFadeOut();
+	});
+}
+
+function popFocus() {
+	$("#popCloseFocusImg").attr("tabindex","0");
+	$("#popCloseFocus").focus();
+}
+function popCloseFocus() {
+	$('#workpop').hide();
+	$('.popSetupShowHide').fullFadeOut();
+	$("#popCloseFocusImg").attr("tabindex","-1");
+}
+function popnoFocus() {
+	if(event.keyCode == 9){
+		popFocus();
+	}
+	if(event.keyCode == 13){
+		$("#popCloseFocusImg").attr("tabindex","-1");
+	}
+}
+
+</script><!-- 代码高亮开始 start -->
+<link type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/default.min.css" rel="stylesheet">
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/highlight.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/highlightjs-line-numbers.js" charset="utf-8"></script>
+<style>
+    pre,code {display: block;background: #F7F8FA;border: 1px solid #E1E3E5; font-size: 14px; border-radius: 4px; padding: 30px 20px; margin: 20px 0; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji; }
+    pre{overflow-x: auto;margin:.5em 0;padding:.4em .6em;border-radius:8px;background:#f8f8f8;}
+    pre.autolinebreak{white-space: normal; }
+    code.hljs{background: #F7F8FA;}
+    pre code,pre pre{ margin: 0; background: none;border: none;}/*padding: 0;*/
+    .code-tool-wrap{padding-bottom: 1em;left: 20px; top: 2px; width: calc(100% - 40px); height: 24px; font-size: 14px; user-select: none;}
+    .code-lang{ display:inline-block; color: #ACB4BF; }
+    .ans-cc .ans-noborder th,.ans-cc .ans-noborder td{border-color:transparent;}
+    .ans-cc pre,.ans-cc code{ position: relative; padding: 0px 20px 30px; margin: 20px 0;border: 1px solid #E1E3E5; border-radius: 4px; color: #474C59; background: #F7F8FA; font-size:14px; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji;  }
+    .ans-cc pre{overflow: auto}
+    .ans-cc pre code,.ans-cc pre pre{ padding: 0; border:none; margin: 0; background: none;border-radius: 0;}
+    .ans-cc pre.autolinebreak{white-space: pre-wrap;word-wrap: break-word;}
+    .hljs-ln-numbers {text-align: center;color: #ccc;border-right: 1px solid #CCC;vertical-align: top;padding-right: 5px !important;}
+    .hljs-ln-code {padding-left: 5px !important;}
+    /* 全局去掉表格样式 */
+    .ans-cc pre code table tr td {border: solid 0px #cfd4dc;text-align: left}
+    /* 作业表格适配，考试表格适配 */
+    .ans-cc pre table{table-layout: unset;}
+    .ans-cc pre code table{table-layout: unset;}
+    /* pre 标签未换行 */
+    .ans-cc pre.line-numbers{clear:both}
+    .ans-cc pre{clear:both}
+
+    /* app作业库 考试库 查看样式 */
+
+    .hljs-link, .hljs-operator, .hljs-regexp, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-symbol, .hljs-template-variable, .hljs-variable {
+        color: #ab5656 !important;
+    }
+    .hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
+        color: #800 !important;
+    }
+    /* 章节作业 */
+    .hljs-ln span{margin-right:0}
+
+    /* 学习通颜色覆盖 */
+    .hljs-type{color:#800 !important;}
+    .hljs-section,.hljs-title{color:#800 !important;font-weight:700}
+    /* 背景颜色 */
+    .ans-cc pre code td{background-color: unset;}
+</style>
+<link type="text/css" href="%E4%BD%9C%E4%B8%9A%E8%AF%A6%E6%83%855_files/newEditor.css" rel="stylesheet">
+<script>
+    /**
+     * 保证最后加载
+     */
+    $(function () {
+        var pre = $(".ans-cc").find('pre')
+        if(pre){
+            pre.each(function () {
+                // debugger
+                var me = this;
+                var lang = me.firstChild && me.firstChild.lang;
+                if (typeof (lang) == 'undefined' || lang == null || lang == "" ) {
+                    lang = me.firstChild && me.firstChild.className;
+                    if (typeof (lang) != 'undefined' && lang != null && lang != "" ) {
+                        var split = lang.split("-");
+                        lang = split[1];
+                        if (lang == 'plain') {
+                            lang = 'Plain Text';
+                        }
+                    } else {
+                        lang = 'Plain Text';
+                    }
+                }
+                me.innerHTML = '<div class="code-tool-wrap clearfix"><div class="code-lang fl">' + lang
+                        + '</div><div class="copy1 fr"><i></i><span></span></div></div>' + me.innerHTML;
+                me.innerHTML = me.innerHTML.replace(/<br\s*\/?>/g, "\n");
+            })
+        }
+
+        try {
+            hljs.initHighlightingOnLoad();
+            hljs.initLineNumbersOnLoad({ singleLine:true });
+        } catch (e) {
+
+        }
+    })
+</script>
+<!-- 代码高亮结束 end --><script>
+
+$(function () {
+	$(".viewAttach").find("span:first").each(function () {
+		$(this).attr("onclick", "viewMark(this);");
+	});
+});
+
+var courseId = $("#courseId").val();
+var classId = $("#classId").val();
+var cpi = $("#cpi").val();
+var workId = $("#workId").val();
+var answerId = $("#answerId").val();
+var enc = $("#enc").val();
+
+function redoWork() {
+	
+	var redoTimes = 1 + 0 - 0;
+	var msg = "你还可以重做" + redoTimes + "次，确认重做后，前一次作答记录会被覆盖，作业成绩以最高成绩为最终成绩，是否继续？";
+	
+	workPop(msg, "重做", "取消", function() {
+		$.ajax({
+			type : "get",
+			url : _HOST_CP2_ + "/work/phone/redo",
+			dataType : "json",
+			data : {
+				courseId : courseId,
+				classId : classId,
+				cpi : cpi,
+				workId : workId,
+				workAnswerId : answerId
+			},
+			success : function(data) {
+				if(data.status == 1) {
+					location.href = "/mooc-ans/mooc2/work/dowork?courseId=219178462&classId=80712344&cpi=270722088&workId=30914531&answerId=52824623&knowledgeId=&jobid=&standardEnc=ec195234b3768aaa0a6db2892f2ed5c6&enc=4b54e56d09f9c323f8e7a51edf3e764d";
+				} else {
+					$.toast({
+						type : 'failure',
+						content : data.msg
+					});
+				}
+			}
+		});
+	});
+}
+
+var recordLock = 0
+function answerList() {
+	if(recordLock == 1) {
+		return;
+	}
+	recordLock = 1;
+	
+	$.ajax({
+		type : "get",
+		url : _HOST_CP2_ + "/mooc2/work/answer-list",
+		dataType : "html",
+		data : {
+			courseId : courseId,
+			classId : classId,
+			cpi : cpi,
+			workId : workId,
+			answerId : answerId,
+			enc : enc
+		},
+		success : function(data) {
+			$("#content").html(data);
+			$("#recordList").show();
+			MoveFixed();
+		}
+	});
+}
+
+function closeAnswers() {
+	$("#recordList").hide();
+	recordLock = 0;
+}
+
+function MoveFixed() {
+	$('.popMove').css({
+		top : function() {
+			return ($(window).height() - $(this).height()) / 2;
+		},
+		left : function() {
+			return ($(window).width() - $(this).width()) / 2;
+		}
+	});
+	
+	$("#boxscroll").niceScroll({
+		cursorborder : "",
+		cursorcolor : "#D9DDE1",
+		boxzoom : false
+	});
+}
+
+</script>
+
+</body></html>
